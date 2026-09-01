@@ -34,5 +34,8 @@
     "tabWidth": 2,
     "semi": true,
     "singleQuote": false
+  },
+  "scripts":{
+    "test": "vitest --run"
   }
 }
