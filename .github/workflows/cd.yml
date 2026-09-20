@@ -1,3 +1,4 @@
+
 name: cd
 
 on:
@@ -18,8 +19,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
+      - name: Install all dependencies
         run: npm cd
 
-      - name: Run the app
+      - name: Run our app
         run: npm run build
