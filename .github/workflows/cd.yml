@@ -20,7 +20,7 @@ jobs:
           node-version: 20
 
       - name: Install all dependencies
-        run: npm cd
+        run: npm ci
 
       - name: Run our app
         run: npm run build
